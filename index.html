@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ionut Jurj - Web Developer</title>
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <nav class="navbar" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top">Ionuț Jurj</a>
+                <div id="navbarResponsive">
+                    <ul class="navbar-nav">
+                        <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                        <li><a class="nav-link" href="#about">About</a></li>
+                        <li><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header>
+            <div>
+                <img class="avatar" src="img/avatar.jfif" alt="Avatar" />
+                <h1>Ionuț Jurj</h1>
+                <div class="divider divider-light">
+                    <div class="divider-line"></div>
+                    <div class="divider-icon"><i class="fas fa-code"></i></div>
+                    <div class="divider-line"></div>
+                </div>
+                <p>Web Developer</p>
+            </div>
+        </header>
+        <section class="portfolio" id="portfolio">
+            <div>
+                <h2 class="section-heading">Portfolio</h2>
+                <div class="divider">
+                    <div class="divider-line"></div>
+                    <div class="divider-icon"><i class="fa-solid fa-folder-open"></i></div>
+                    <div class="divider-line"></div>
+                </div>
+                <div class="row">
+                    <!-- Portfolio Item 1-->
+                    <div class="col">
+                        <div class="portfolio-item">
+                            <div class="portfolio-item-caption">
+                                <div class="portfolio-item-caption-content" id="portfolioItem1"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="img/portfolio1.PNG" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col">
+                        <div class="portfolio-item">
+                            <div class="portfolio-item-caption">
+                                <div class="portfolio-item-caption-content" id="portfolioItem2"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="img/portfolio2.PNG" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col">
+                        <div class="portfolio-item">
+                            <div class="portfolio-item-caption">
+                                <div class="portfolio-item-caption-content" id="portfolioItem3"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="img/portfolio3.PNG" alt="..." />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div>
+                <h2 style="color: #fff;" class="section-heading">About</h2>
+                <div class="divider divider-light">
+                    <div class="divider-line"></div>
+                    <div class="divider-icon"><i class="fas fa-user"></i></div>
+                    <div class="divider-line"></div>
+                </div>
+                <div class="row">
+                    <div class="col"><p>After almost 10 years of working in the retail area, I have just decided a few months ago that it's time to make a change in my professional life.</p></div>
+                    <div class="col"><p>So I applied for a front-end development training and now here I am, presenting this page to you, as my final project.</p></div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div>
+                <h2 class="section-heading">Contact Me</h2>
+                <div class="divider">
+                    <div class="divider-line"></div>
+                    <div class="divider-icon"><i class="fas fa-envelope"></i></div>
+                    <div class="divider-line"></div>
+                </div>
+                <div class="row">
+                    <div>
+                        <form id="contactForm" action="thanks.html">
+                            <div class="form-floating">
+                                <label for="name">Full name</label>
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." required />
+                            </div>
+                            <div class="form-floating">
+                                <label for="email">Email address</label>
+                                <input class="form-control" id="email" type="email" placeholder="name@example.com" required />
+                            </div>
+                            <div class="form-floating">
+                                <label for="phone">Phone number</label>
+                                <input class="form-control" id="phone" type="tel" placeholder="+40 123 456 789"required />
+                            </div>
+                            <div class="form-floating">
+                                <label for="message">Message</label>
+                                <textarea style="height: 150px " class="form-control" id="message" type="text" placeholder="Enter your message here..." required></textarea>
+                            </div>
+                            <button id="submitButton" type="submit">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div>
+                <div class="row">
+                    <div class="col">
+                        <h4>Location</h4>
+                        <p>
+                            Oradea
+                            <br />
+                            Romania
+                        </p>
+                    </div>
+                    <div class="col">
+                        <h4>Around the Web</h4>
+                        <a class="social-button" href="https://www.facebook.com/ionut.jurj/"><i class="fab fa-fw fa-facebook-f"></i></a>
+                        <a class="social-button" href="https://www.linkedin.com/in/ionut-jurj-857193249/"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                        <a class="social-button" href="https://github.com/ionutjurj"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+         <!-- Portfolio Modals-->
+        <!-- Portfolio Modal 1-->
+        <div class="modal" id="portfolioModal1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div>
+                            <div class="row">
+                                <div class="col">
+                                    <h2 class="portfolio-modal-title">A complex table</h2>
+                                    <div class="divider">
+                                        <div class="divider-line"></div>
+                                        <div class="divider-icon"><i class="fas fa-code"></i></div>
+                                        <div class="divider-line"></div>
+                                    </div>
+                                    <img class="img-fluid" src="img/portfolio1.PNG" alt="..." />
+                                    <p style="font-weight: lighter;">This was one of the first assignments done in the front-end developer training and the request was to replicate the table using what we learned at that session.</p>
+                                    <button style="margin-left:15%" id="closeModal1">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 2-->
+        <div class="modal" id="portfolioModal2">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div>
+                            <div class="row">
+                                <div class="col">
+                                    <h2 class="portfolio-modal-title" style="margin-left:5%">The multiplication table</h2>
+                                    <div class="divider">
+                                        <div class="divider-line"></div>
+                                        <div class="divider-icon"><i class="fas fa-code"></i></div>
+                                        <div class="divider-line"></div>
+                                    </div>
+                                    <img class="img-fluid" src="img/portfolio2.PNG" alt="..." />
+                                    <p style="font-weight: lighter;">This was one of the mandatory assignments of the tables lesson. We had to replicate the multiplication table based on a given image.</p>
+                                    <button style="margin-left:15%" id="closeModal2">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 3-->
+        <div class="modal" id="portfolioModal3">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div>
+                            <div class="row">
+                                <div class="col">
+                                    <h2 class="portfolio-modal-title" style="margin-left: 15%;">CSS Selectors</h2>
+                                    <div class="divider">
+                                        <div class="divider-line"></div>
+                                        <div class="divider-icon"><i class="fas fa-code"></i></div>
+                                        <div class="divider-line"></div>
+                                    </div>
+                                    <img class="img-fluid" src="img/portfolio3.PNG" alt="..." />
+                                    <p style="font-weight: lighter;">This was the assignment of the CSS Selectors lesson where we had to replicate this table.</p>
+                                    <button style="margin-left:15%" id="closeModal3">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>       
+    </body>
