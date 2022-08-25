@@ -1,7 +1,6 @@
 let portfolioModal1 = document.getElementById("portfolioModal1");
 let portfolioModal2 = document.getElementById("portfolioModal2");
 let portfolioModal3 = document.getElementById("portfolioModal3");
-let messageSentModal = document.getElementById("submitSuccessMessage");
 
 document.getElementById("portfolioItem1").onclick =  function() {
     portfolioModal1.style.display = "block";
